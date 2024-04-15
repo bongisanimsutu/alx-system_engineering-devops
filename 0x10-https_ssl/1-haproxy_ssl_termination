@@ -47,7 +47,7 @@ frontend msutu.tech-frontend
         http-request set-header X-Forwarded-Proto http
         # ADDITIONS
         use_backend letsencrypt-backend if letsencrypt-acl
-        default_backend munyasi.tech-backend
+        default_backend msutu.tech-backend
 
 backend msutu.tech-backend
         balance roundrobin
